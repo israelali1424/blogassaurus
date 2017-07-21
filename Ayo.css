@@ -1,5 +1,28 @@
-body{
-  background-color: #5042f4;
+
+/* For all or most pages css */
+.Home_Button {
+  margin-left: 300px;
+}
+/* For the home Page only */
+#logo{
+  display: inline;
+  margin-top: -105px;
+    margin-right: 20px;
+  height: 100px;
+  width: 100px;
+}
+#gif{
+  display: block;
+  margin-top: -1px;
+    margin-left: 85px;
+  height: 300px;
+  width: 500px;
+  top: 12px;
+}
+h1{
+  display: inline;
+  text-align: center;
+  margin-top: -100px;
 }
 #Izzy{
   /* Ask a Ta about how to align a border with an image */
@@ -11,7 +34,21 @@ margin-left: 230px;
   border-radius: 56px;
   padding: 1px;
 }
-#mg{
+#songs{
+  position: relative;
+  top: 5px;
+  padding: 5px;
+  font-size: 11px;
+  border: 5px solid #000000
+}
+#song:hover{
+  background-color: : blue;
+}
+/* This css is for the blog page only */
+#Blog_Body{
+  background-color: orange;
+}
+#cssi_logo{
   position: relative;
   margin-left: 250px;
   height: 125px;
@@ -34,4 +71,12 @@ margin-left: 230px;
   	padding: 0;
   	text-align: center;
   	margin-top: 80px;
+}
+/* css for the Bio Page  */
+#banny{
+  height: 200px;
+  width: 450px;
+}
+#Bio_Body{
+  background-color: #26218c;
 }
