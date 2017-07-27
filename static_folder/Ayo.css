@@ -74,9 +74,14 @@ margin-left: 230px;
 }
 /* css for the Bio Page  */
 #banny{
-  height: 200px;
+  height: 400px;
   width: 450px;
 }
 #Bio_Body{
-  background-color: #26218c;
+  background-color: #b0e0e6;
+}
+/* For the Contact.html */
+#Comment_Body{
+  /* Powder Blue */
+  background-color: #b0e0e6
 }
